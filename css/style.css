@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -7,8 +8,10 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
 }
 
 /* Sections
@@ -43,9 +46,12 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
 }
 
 /**
@@ -53,8 +59,10 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /* Text-level semantics
@@ -71,10 +79,13 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
   -webkit-text-decoration: underline dotted;
-  text-decoration: underline dotted; /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
 }
 
 /**
@@ -92,8 +103,10 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /**
@@ -143,10 +156,14 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
 }
 
 /**
@@ -154,7 +171,8 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -163,7 +181,8 @@ input { /* 1 */
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -212,12 +231,18 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  box-sizing: border-box; /* 1 */
-  color: inherit; /* 2 */
-  display: table; /* 1 */
-  max-width: 100%; /* 1 */
-  padding: 0; /* 3 */
-  white-space: normal; /* 1 */
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
 }
 
 /**
@@ -240,8 +265,10 @@ textarea {
  */
 [type=checkbox],
 [type=radio] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
 }
 
 /**
@@ -257,8 +284,10 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
 }
 
 /**
@@ -273,8 +302,10 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
 }
 
 /* Interactive
@@ -322,6 +353,7 @@ template {
   font-weight: 900;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/roboto/Roboto-Bold.eot");
@@ -329,6 +361,7 @@ template {
   font-weight: bold;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/roboto/Roboto-BoldItalic.eot");
@@ -336,6 +369,7 @@ template {
   font-weight: bold;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/roboto/Roboto-LightItalic.eot");
@@ -343,6 +377,7 @@ template {
   font-weight: 300;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/roboto/Roboto-Regular.eot");
@@ -350,6 +385,7 @@ template {
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/roboto/Roboto-ThinItalic.eot");
@@ -357,6 +393,7 @@ template {
   font-weight: 100;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/roboto/Roboto-Black.eot");
@@ -364,6 +401,7 @@ template {
   font-weight: 900;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/roboto/Roboto-MediumItalic.eot");
@@ -371,6 +409,7 @@ template {
   font-weight: 500;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/roboto/Roboto-Thin.eot");
@@ -378,6 +417,7 @@ template {
   font-weight: 100;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/roboto/Roboto-Light.eot");
@@ -385,6 +425,7 @@ template {
   font-weight: 300;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/roboto/Roboto-Italic.eot");
@@ -392,6 +433,7 @@ template {
   font-weight: normal;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/roboto/Roboto-Medium.eot");
@@ -399,6 +441,7 @@ template {
   font-weight: 500;
   font-style: normal;
 }
+
 /* Inter */
 @font-face {
   font-family: "Inter";
@@ -407,6 +450,7 @@ template {
   font-weight: bold;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Inter";
   src: url("../fonts/inter/Inter-MediumItalic.eot");
@@ -414,6 +458,7 @@ template {
   font-weight: 500;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Inter";
   src: url("../fonts/inter/Inter-ThinItalicBETA.eot");
@@ -421,6 +466,7 @@ template {
   font-weight: 100;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Inter";
   src: url("../fonts/inter/Inter-Regular.eot");
@@ -428,6 +474,7 @@ template {
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Inter";
   src: url("../fonts/inter/Inter-Black.eot");
@@ -435,6 +482,7 @@ template {
   font-weight: 900;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Inter";
   src: url("../fonts/inter/Inter-BlackItalic.eot");
@@ -442,6 +490,7 @@ template {
   font-weight: 900;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Inter";
   src: url("../fonts/inter/Inter-LightBETA.eot");
@@ -449,6 +498,7 @@ template {
   font-weight: 300;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Inter";
   src: url("../fonts/Inter/Inter-SemiBold.eot");
@@ -456,6 +506,7 @@ template {
   font-weight: 600;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Inter";
   src: url("../fonts/Inter/Inter-ExtraBoldItalic.eot");
@@ -463,6 +514,7 @@ template {
   font-weight: 800;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Inter";
   src: url("../fonts/inter/Inter-Bold.eot");
@@ -470,6 +522,7 @@ template {
   font-weight: bold;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Inter";
   src: url("../fonts/Inter/Inter-ExtraLightItalicBETA.eot");
@@ -477,6 +530,7 @@ template {
   font-weight: 200;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Inter";
   src: url("../fonts/Inter/Inter-ExtraLightBETA.eot");
@@ -484,6 +538,7 @@ template {
   font-weight: 200;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Inter";
   src: url("../fonts/inter/Inter-ExtraBold.eot");
@@ -491,6 +546,7 @@ template {
   font-weight: 800;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Inter";
   src: url("../fonts/inter/Inter-ThinBETA.eot");
@@ -498,6 +554,7 @@ template {
   font-weight: 100;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Inter";
   src: url("../fonts/Inter/Inter-LightItalicBETA.eot");
@@ -505,6 +562,7 @@ template {
   font-weight: 300;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Inter";
   src: url("../fonts/Inter/Inter-Italic.eot");
@@ -512,6 +570,7 @@ template {
   font-weight: normal;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Inter";
   src: url("../fonts/inter/Inter-SemiBoldItalic.eot");
@@ -519,6 +578,7 @@ template {
   font-weight: 600;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Inter";
   src: url("../fonts/inter/Inter-Medium.eot");
@@ -526,6 +586,7 @@ template {
   font-weight: 500;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Lato";
   src: url("../fonts/lato/Lato-LightItalic.eot");
@@ -533,6 +594,7 @@ template {
   font-weight: 300;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Lato";
   src: url("../fonts/lato/Lato-Black.eot");
@@ -540,6 +602,7 @@ template {
   font-weight: 900;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Lato";
   src: url("../fonts/lato/Lato-HeavyItalic.eot");
@@ -547,6 +610,7 @@ template {
   font-weight: 900;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Lato Hairline";
   src: url("../fonts/lato/Lato-Hairline.eot");
@@ -554,6 +618,7 @@ template {
   font-weight: 300;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Lato";
   src: url("../fonts/lato/Lato-Semibold.eot");
@@ -561,6 +626,7 @@ template {
   font-weight: 600;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Lato";
   src: url("../fonts/lato/Lato-Heavy.eot");
@@ -568,6 +634,7 @@ template {
   font-weight: 900;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Lato";
   src: url("../fonts/lato/Lato-MediumItalic.eot");
@@ -575,6 +642,7 @@ template {
   font-weight: 500;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Lato";
   src: url("../fonts/lato/Lato-Light.eot");
@@ -582,6 +650,7 @@ template {
   font-weight: 300;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Lato";
   src: url("../fonts/lato/Lato-Bold.eot");
@@ -589,6 +658,7 @@ template {
   font-weight: bold;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Lato";
   src: url("../fonts/lato/Lato-BoldItalic.eot");
@@ -596,6 +666,7 @@ template {
   font-weight: bold;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Lato";
   src: url("../fonts/lato/Lato-Regular.eot");
@@ -603,6 +674,7 @@ template {
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Lato Hairline";
   src: url("../fonts/lato/Lato-HairlineItalic.eot");
@@ -610,6 +682,7 @@ template {
   font-weight: 300;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Lato";
   src: url("../fonts/lato/Lato-SemiboldItalic.eot");
@@ -617,6 +690,7 @@ template {
   font-weight: 600;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Lato";
   src: url("../fonts/lato/Lato-BlackItalic.eot");
@@ -624,6 +698,7 @@ template {
   font-weight: 900;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Lato";
   src: url("../fonts/lato/Lato-Italic.eot");
@@ -631,6 +706,7 @@ template {
   font-weight: normal;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Lato";
   src: url("../fonts/lato/Lato-ThinItalic.eot");
@@ -638,6 +714,7 @@ template {
   font-weight: 100;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Lato";
   src: url("../fonts/lato/Lato-Thin.eot");
@@ -645,6 +722,7 @@ template {
   font-weight: 100;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Lato";
   src: url("../fonts/lato/Lato-Medium.eot");
@@ -652,6 +730,7 @@ template {
   font-weight: 500;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Commissioner";
   src: url("../fonts/commissioner/Commissioner-ExtraBold.eot");
@@ -659,6 +738,7 @@ template {
   font-weight: 800;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Commissioner";
   src: url("../fonts/commissioner/Commissioner-Light.eot");
@@ -666,6 +746,7 @@ template {
   font-weight: 300;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Commissioner";
   src: url("../fonts/commissioner/Commissioner-Bold.eot");
@@ -673,6 +754,7 @@ template {
   font-weight: bold;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Commissioner";
   src: url("../fonts/commissioner/Commissioner-Medium.eot");
@@ -680,6 +762,7 @@ template {
   font-weight: 500;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Commissioner";
   src: url("../fonts/commissioner/Commissioner-ExtraLight.eot");
@@ -687,6 +770,7 @@ template {
   font-weight: 200;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Commissioner";
   src: url("../fonts/commissioner/Commissioner-Black.eot");
@@ -694,6 +778,7 @@ template {
   font-weight: 900;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Commissioner";
   src: url("../fonts/commissioner/Commissioner-Regular.eot");
@@ -701,6 +786,7 @@ template {
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Commissioner";
   src: url("../fonts/commissioner/ommissioner-SemiBold.eot");
@@ -708,6 +794,7 @@ template {
   font-weight: 600;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Commissioner";
   src: url("../fonts/commissioner/Commissioner-Thin.eot");
@@ -715,6 +802,7 @@ template {
   font-weight: 100;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Pilat Extended";
   src: url("../fonts/pilatExtended/PilatExtended-Bold.eot");
@@ -722,6 +810,7 @@ template {
   font-weight: bold;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Pilat Extended";
   src: url("../fonts/pilatExtended/PilatExtended-Regular.eot");
@@ -729,6 +818,7 @@ template {
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Pilat Extended";
   src: url("../fonts/pilatExtended/PilatExtended-Thin.eot");
@@ -736,6 +826,7 @@ template {
   font-weight: 100;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Pilat Extended";
   src: url("../fonts/pilatExtended/PilatExtended-Heavy.eot");
@@ -743,6 +834,7 @@ template {
   font-weight: 900;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Pilat Extended";
   src: url("../fonts/pilatExtended/PilatExtended-Light.eot");
@@ -750,6 +842,7 @@ template {
   font-weight: 300;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Pilat Extended Book";
   src: url("../fonts/pilatExtended/PilatExtended-Book.eot");
@@ -757,6 +850,7 @@ template {
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Pilat Extended Demi";
   src: url("../fonts/pilatExtended/PilatExtended-DemiBold.eot");
@@ -764,6 +858,7 @@ template {
   font-weight: 600;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Pilat Extended";
   src: url("../fonts/pilatExtended/PilatExtended-Black.eot");
@@ -771,6 +866,7 @@ template {
   font-weight: 900;
   font-style: normal;
 }
+
 :root {
   --font-family: "Roboto", sans-serif;
   --second-family: "Inter", sans-serif;
@@ -800,18 +896,76 @@ template {
     padding: 0 32px;
   }
 }
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -827,8 +981,17 @@ body {
   line-height: 1;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -836,12 +999,15 @@ nav ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: "";
   content: none;
 }
@@ -885,7 +1051,8 @@ del {
   text-decoration: line-through;
 }
 
-abbr[title], dfn[title] {
+abbr[title],
+dfn[title] {
   border-bottom: 1px dotted;
   cursor: help;
 }
@@ -905,12 +1072,17 @@ hr {
   padding: 0;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
   vertical-align: middle;
   background-color: inherit;
   border: none;
 }
-input:focus, select:focus, textarea:focus {
+
+input:focus,
+select:focus,
+textarea:focus {
   outline: none;
 }
 
@@ -947,6 +1119,7 @@ body {
   font-family: var(--font-family);
   background-color: #fff;
 }
+
 body.stop {
   overflow: hidden;
 }
@@ -955,13 +1128,14 @@ img {
   max-width: 100%;
   pointer-events: none;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 a {
   color: #000;
   transition: all 0.3s ease-in-out;
 }
+
 a svg {
   transition: all 0.3s ease-in-out;
 }
@@ -970,20 +1144,25 @@ button {
   font-family: var(--font-family);
   transition: all 0.3s ease-in-out;
 }
+
 button svg {
   transition: all 0.3s ease-in-out;
 }
 
-input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   -moz-appearance: textfield;
 }
+
 input.error {
   color: var(--ff3d3d) !important;
 }
+
 input.error::-moz-placeholder {
   color: var(--ff3d3d) !important;
 }
+
 input.error::placeholder {
   color: var(--ff3d3d) !important;
 }
@@ -991,9 +1170,11 @@ input.error::placeholder {
 textarea.error {
   color: var(--ff3d3d) !important;
 }
+
 textarea.error::-moz-placeholder {
   color: var(--ff3d3d) !important;
 }
+
 textarea.error::placeholder {
   color: var(--ff3d3d) !important;
 }
@@ -1001,6 +1182,7 @@ textarea.error::placeholder {
 .label-global {
   display: block;
 }
+
 .label-global__input {
   width: 100%;
   padding: 12px 16px;
@@ -1011,31 +1193,38 @@ textarea.error::placeholder {
   color: #000;
   transition: all 0.3s ease-in-out;
 }
+
 .label-global__input::-moz-placeholder {
   font-weight: 700;
   font-size: 16px;
   color: #000;
   opacity: 0.4;
 }
+
 .label-global__input::placeholder {
   font-weight: 700;
   font-size: 16px;
   color: #000;
   opacity: 0.4;
 }
+
 .label-global__input:hover {
   background-color: #e3e3e3;
 }
+
 .label-global__input:focus {
   background-color: #e3e3e3;
 }
+
 .label-global.active .label-global__input {
   background-color: #e3e3e3;
 }
+
 .label-global.active .label-global__input::-moz-placeholder {
   color: #000;
   opacity: 1;
 }
+
 .label-global.active .label-global__input::placeholder {
   color: #000;
   opacity: 1;
@@ -1044,6 +1233,7 @@ textarea.error::placeholder {
 .formSelect {
   position: relative;
 }
+
 .formSelect-btn {
   position: relative;
   display: flex;
@@ -1059,10 +1249,12 @@ textarea.error::placeholder {
   background-color: #fff;
   z-index: 2;
 }
+
 .formSelect-btn svg {
   stroke: #929393;
   transition: all 0.3s ease-in-out;
 }
+
 .formSelect-btn p {
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -1072,15 +1264,19 @@ textarea.error::placeholder {
   max-width: 100%;
   text-align: start;
 }
+
 .formSelect-btn.error {
   color: var(--ff3d3d);
 }
+
 .formSelect-btn:hover {
   background-color: #e3e3e3;
 }
+
 .formSelect-btn:hover svg {
   stroke: #000;
 }
+
 .formSelect-list {
   position: absolute;
   top: 0;
@@ -1100,15 +1296,18 @@ textarea.error::placeholder {
   visibility: hidden;
   pointer-events: none;
 }
+
 .formSelect-list__item {
   position: relative;
   padding: 12px 10px;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
+
 .formSelect-list__item:hover {
   color: #fd8a00;
 }
+
 .formSelect-list__item-descr {
   font-weight: 700;
   font-size: 16px;
@@ -1117,6 +1316,7 @@ textarea.error::placeholder {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
+
 .formSelect-list__item input {
   position: absolute;
   top: 0;
@@ -1126,20 +1326,25 @@ textarea.error::placeholder {
   cursor: pointer;
   opacity: 0;
 }
+
 .formSelect-list__item:hover {
   background-color: #e3e3e3;
 }
+
 .formSelect.active {
   z-index: 3;
 }
+
 .formSelect.active .formSelect-btn svg {
   transform: rotate(180deg);
 }
+
 .formSelect.active .formSelect-list {
   opacity: 1;
   visibility: visible;
   pointer-events: all;
 }
+
 .formSelect.error .formSelect-btn {
   color: var(--ff3d3d);
 }
@@ -1156,12 +1361,15 @@ textarea.error::placeholder {
   text-align: center;
   color: #fff;
 }
+
 .btn-global:hover {
   opacity: 0.7;
 }
+
 .btn-global.active {
   background-color: var(--fd8a00);
 }
+
 .btn-global.disabled {
   pointer-events: none;
 }
@@ -1170,25 +1378,32 @@ textarea.error::placeholder {
   .btn-global {
     font-size: 12px;
   }
+
   .label-global__input {
     font-size: 12px;
   }
+
   .label-global__input::-moz-placeholder {
     font-size: 12px;
   }
+
   .label-global__input::placeholder {
     font-size: 12px;
   }
+
   .formSelect {
     position: relative;
   }
+
   .formSelect-btn {
     font-size: 12px;
   }
+
   .formSelect-list__item-descr {
     font-size: 12px;
   }
 }
+
 .header {
   position: fixed;
   top: 0;
@@ -1197,9 +1412,11 @@ textarea.error::placeholder {
   background-color: #f8f8f8;
   z-index: 40;
 }
+
 .header.header-user {
   padding: 20px 0;
 }
+
 .header__content {
   display: flex;
   align-items: center;
@@ -1208,28 +1425,33 @@ textarea.error::placeholder {
   gap: 20px;
   padding: 0 40px;
 }
+
 .header__content-left {
   display: flex;
   align-items: center;
 }
+
 .header__content-left__logo-link {
   font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
   color: var(--ed1c24);
 }
+
 .header__content-left__info {
   display: flex;
   align-items: center;
   margin-left: 38px;
   gap: 28px;
 }
+
 .header__content-left__info-name {
   font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
   color: #000;
 }
+
 .header__content-left__info-balance {
   display: flex;
   align-items: center;
@@ -1238,10 +1460,12 @@ textarea.error::placeholder {
   font-size: 18px;
   color: #000;
 }
+
 .header__content-left__info-balance .value {
   font-weight: 700;
   font-size: 32px;
 }
+
 .header__content-left__info-balance .icon {
   display: flex;
   align-items: center;
@@ -1255,16 +1479,19 @@ textarea.error::placeholder {
   text-align: center;
   color: #fff;
 }
+
 .header__content-right {
   display: flex;
   align-items: center;
   gap: 49px;
 }
+
 .header__content-right__nav .nav__list {
   display: flex;
   align-items: center;
   gap: 20px;
 }
+
 .header__content-right__nav .nav__list-item__link {
   white-space: nowrap;
   font-family: var(--second-family);
@@ -1274,17 +1501,55 @@ textarea.error::placeholder {
   letter-spacing: -0.02em;
   color: var(--151515);
 }
+
 .header__content-right__nav .nav__list-item__link:hover {
   color: var(--ed1c24);
 }
+
+.header__content-right__nav .nav__list-item {
+  position: relative;
+}
+
+.header__content-right__nav .nav__list-item .nav__list-sub {
+  position: absolute;
+  top: calc(100% + 0px);
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.2s linear;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 100%;
+  padding: 10px 15px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.header__content-right__nav .nav__list-item:hover .nav__list-sub {
+  opacity: 1;
+  visibility: visible;
+  top: calc(100% + 10px);
+}
+
+.header__content-right__nav .nav__list-item:hover .nav__list-sub::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  width: 100%;
+  height: 11px;
+}
+
 .header__content-right__social .social__list {
   display: flex;
   align-items: center;
   gap: 18px;
 }
+
 .header__content-right__social .social__list-item:first-child {
   margin-right: 12px;
 }
+
 .header__content-right__social .social__list-item__link {
   font-family: var(--font3);
   font-weight: 600;
@@ -1292,6 +1557,7 @@ textarea.error::placeholder {
   text-transform: uppercase;
   color: var(--07171d);
 }
+
 .header__content-right__social .social__list-item__link:hover {
   color: var(--ed1c24);
 }
@@ -1301,19 +1567,23 @@ textarea.error::placeholder {
     flex-direction: column;
     align-items: unset;
   }
+
   .header__content-left__info {
     margin-left: auto;
   }
+
   .header__content-right {
     flex-direction: column;
     gap: 21px;
   }
 }
+
 @media (max-width: 767px) {
   .header {
     display: none;
   }
 }
+
 .distribution-page {
   display: flex;
   flex-direction: column;
@@ -1321,18 +1591,21 @@ textarea.error::placeholder {
   flex: 1;
   padding-top: 20px;
 }
+
 .distribution-page__content-blocks {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 30px;
 }
+
 .distribution-page__content-blocks ul {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 15px;
 }
+
 .distribution-page__content-blocks ul li a {
   display: block;
   text-align: center;
@@ -1343,6 +1616,7 @@ textarea.error::placeholder {
   letter-spacing: -0.02em;
   color: var(--151515);
 }
+
 .distribution-page__content-blocks ul li a:hover {
   color: var(--ed1c24);
 }
@@ -1355,6 +1629,7 @@ textarea.error::placeholder {
   width: 100%;
   padding: 0 16px;
 }
+
 .mobile-menu__content {
   position: relative;
   padding: 22px 32px;
@@ -1363,6 +1638,7 @@ textarea.error::placeholder {
   transition: all 0.3s ease-in-out;
   z-index: 50;
 }
+
 .mobile-menu__content::after {
   content: "";
   position: absolute;
@@ -1375,6 +1651,7 @@ textarea.error::placeholder {
   opacity: 0;
   transition: all 0.3s ease-in-out;
 }
+
 .mobile-menu__content-expanded {
   position: absolute;
   bottom: 50%;
@@ -1390,42 +1667,51 @@ textarea.error::placeholder {
   transition: all 0.3s ease-in-out;
   z-index: 49;
 }
+
 .mobile-menu__content-expanded .expanded__list {
   display: flex;
   flex-direction: column;
   gap: 20px;
   padding: 23px 24px 25px 24px;
 }
+
 .mobile-menu__content-expanded .expanded__list-item__link {
   line-height: 100%;
   font-weight: 400;
   font-size: 20px;
   color: #fff;
 }
+
 .mobile-menu__content-main .main__menu {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 10px;
 }
+
 .mobile-menu__content-main .main__menu-item__link svg {
   fill: #7f7f7f;
 }
+
 .mobile-menu__content-main .main__menu-item__link.active svg {
   fill: #fff;
 }
+
 .mobile-menu.active .mobile-menu__content {
   border-radius: 0 0 14px 14px;
 }
+
 .mobile-menu.active .mobile-menu__content::after {
   opacity: 1;
 }
+
 .mobile-menu.active .mobile-menu__content-expanded {
   bottom: 99%;
   opacity: 1;
   visibility: visible;
   pointer-events: all;
 }
+
 .mobile-menu.active .mobile-menu__content-main .main__menu-item__link:last-child {
   transform: rotate(-90deg);
 }
@@ -1441,28 +1727,34 @@ textarea.error::placeholder {
   max-width: 380px;
   transition: all 0.3s ease-in-out;
 }
+
 .main-restrictions__content {
   padding: 21px 32px;
   min-height: 120px;
   background-color: #d9d9d9;
 }
+
 .main-restrictions__content-title {
   margin-bottom: 20px;
 }
+
 .main-restrictions__content-title * {
   font-weight: 500;
   font-size: 16px;
   color: #ed1c24;
 }
+
 .main-restrictions__content-descr {
   font-weight: 300;
   font-size: 16px;
   line-height: 121%;
   color: #000;
 }
+
 .main-restrictions__content-descr span {
   font-weight: 500;
 }
+
 .main-restrictions.active {
   display: flex;
 }
@@ -1470,37 +1762,45 @@ textarea.error::placeholder {
 .main-guest {
   padding-top: 19.7vh;
 }
+
 .main-guest .container {
   max-width: 840px;
 }
+
 .main-guest__content {
   padding-left: 40px;
 }
+
 .main-guest__content-top {
   display: flex;
   gap: 15px;
   margin-bottom: 52px;
   padding-left: 11px;
 }
+
 .main-guest__content-top__descr {
   font-weight: 400;
   font-size: 18px;
   color: #000;
 }
+
 .main-guest__content-top__title * {
   font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
   color: #000;
 }
+
 .main-guest__content-top__title * span {
   color: #ed1c24;
 }
+
 .main-guest__content-bottom {
   display: grid;
   grid-template-columns: auto 303px;
   gap: 79px;
 }
+
 .main-guest__content-bottom__form .main-guest__form-links {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1509,21 +1809,26 @@ textarea.error::placeholder {
   border-radius: 8px;
   background-color: #f3f4f5;
 }
+
 .main-guest__content-bottom__form .main-guest__form-links__btn {
   min-height: 40px;
   background-color: inherit;
   color: #000;
 }
+
 .main-guest__content-bottom__form .main-guest__form-links__btn.active {
   background-color: #000;
   color: #fff;
 }
+
 .main-guest__content-bottom__form .main-guest__form .label-global {
   margin-bottom: 13px;
 }
+
 .main-guest__content-bottom__form .main-guest__form .label-global__input {
   padding: 14px 16px;
 }
+
 .main-guest__content-bottom__form .main-guest__form-submit {
   padding: 15px 10px;
   width: 100%;
@@ -1532,18 +1837,22 @@ textarea.error::placeholder {
   color: #fff;
   background-color: #ff4b00;
 }
+
 .main-guest__content-bottom__info {
   padding-top: 8px;
 }
+
 .main-guest__content-bottom__info-title {
   margin-bottom: 13px;
 }
+
 .main-guest__content-bottom__info-title * {
   font-weight: 700;
   font-size: 24px;
   text-transform: uppercase;
   color: #ed1c24;
 }
+
 .main-guest__content-bottom__info-descr {
   font-weight: 700;
   font-size: 18px;
@@ -1559,30 +1868,36 @@ textarea.error::placeholder {
   width: 100%;
   max-width: 366px;
 }
+
 .main-statistics__content {
   padding: 16px 16px;
   border-radius: 8px;
   background-color: #ff4b00;
 }
+
 .main-statistics__content-top {
   display: flex;
   align-items: center;
   gap: 9px;
   margin-bottom: 22px;
 }
+
 .main-statistics__content-top .icon {
   flex-shrink: 0;
 }
+
 .main-statistics__content-top__title * {
   font-weight: 400;
   font-size: 16px;
   color: #fff;
 }
+
 .main-statistics__content-list .statistics__list {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
+
 .main-statistics__content-list .statistics__list-item {
   display: flex;
   align-items: center;
@@ -1596,17 +1911,21 @@ textarea.error::placeholder {
 .main-user {
   padding-top: 60px;
 }
+
 .main-user .container {
   max-width: 443px;
 }
+
 .main-user__content-top {
   display: none;
 }
+
 .main-user__content-rates .rates__list {
   display: flex;
   flex-direction: column;
   gap: 19px;
 }
+
 .main-user__content-rates .rates__list-item__content {
   display: grid;
   grid-template-columns: 1fr 110px 1fr;
@@ -1617,6 +1936,7 @@ textarea.error::placeholder {
   border-radius: 8px;
   background-color: #fff;
 }
+
 .main-user__content-rates .rates__list-item__content-choice {
   display: flex;
   flex-direction: column;
@@ -1624,6 +1944,7 @@ textarea.error::placeholder {
   justify-content: space-between;
   gap: 10px;
 }
+
 .main-user__content-rates .rates__list-item__content-choice__tupe {
   width: 70px;
   height: 70px;
@@ -1631,14 +1952,17 @@ textarea.error::placeholder {
   border-radius: 10px;
   background-color: #fff;
 }
+
 .main-user__content-rates .rates__list-item__content-choice__tupe.black {
   background-color: #000;
 }
+
 .main-user__content-rates .rates__list-item__content-choice__info {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
+
 .main-user__content-rates .rates__list-item__content-choice__info h3 {
   font-weight: 700;
   font-size: 16px;
@@ -1646,15 +1970,18 @@ textarea.error::placeholder {
   text-align: center;
   color: #000;
 }
+
 .main-user__content-rates .rates__list-item__content-choice__info p {
   font-weight: 400;
   font-size: 10px;
   text-align: center;
   color: rgba(0, 0, 0, 0.4);
 }
+
 .main-user__content-rates .rates__list-item__content-choice__btn {
   width: 100%;
 }
+
 .main-user__content-rates .rates__list-item__content-choice__btn .btn-global {
   padding: 10px 10px;
   width: 100%;
@@ -1665,10 +1992,12 @@ textarea.error::placeholder {
   font-size: 18px;
   color: #000;
 }
+
 .main-user__content-rates .rates__list-item__content-choice__btn .btn-global:hover {
   background-color: #000;
   color: #f3f4f5;
 }
+
 .main-user__content-rates .rates__list-item__content-info {
   display: flex;
   flex-direction: column;
@@ -1677,30 +2006,35 @@ textarea.error::placeholder {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
 .main-user__content-rates .rates__list-item__content-info__top {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 13px;
 }
+
 .main-user__content-rates .rates__list-item__content-info__top h4 {
   font-weight: 400;
   font-size: 14px;
   text-align: center;
   color: rgba(0, 0, 0, 0.4);
 }
+
 .main-user__content-rates .rates__list-item__content-info__top p {
   font-weight: 400;
   font-size: 10px;
   text-align: center;
   color: rgba(0, 0, 0, 0.4);
 }
+
 .main-user__content-rates .rates__list-item__content-info__top p.time {
   position: relative;
   padding-left: 15px;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.5);
 }
+
 .main-user__content-rates .rates__list-item__content-info__top p.time::after {
   content: "";
   position: absolute;
@@ -1711,18 +2045,21 @@ textarea.error::placeholder {
   border-radius: 50%;
   background-color: #FF4B00;
 }
+
 .main-user__content-rates .rates__list-item__content-info__bottom {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 8px;
 }
-.main-user__content-rates .rates__list-item__content-info__bottom > p {
+
+.main-user__content-rates .rates__list-item__content-info__bottom>p {
   font-weight: 400;
   font-size: 14px;
   text-align: center;
   color: rgba(0, 0, 0, 0.5);
 }
+
 .main-user__content-rates .rates__list-item__content-info__bottom-btn {
   gap: 5px;
   padding: 10px 18px;
@@ -1731,6 +2068,7 @@ textarea.error::placeholder {
   color: #000;
   border: 0.49px solid rgba(0, 0, 0, 0.4);
 }
+
 .main-user__content-rates .rates__list-item__content-info__bottom-btn .icon {
   width: 15px;
   height: 15px;
@@ -1745,9 +2083,11 @@ textarea.error::placeholder {
 .user-profile {
   padding-top: 143px;
 }
+
 .user-profile .container {
   max-width: 341px;
 }
+
 .user-profile__content-top {
   display: flex;
   align-items: center;
@@ -1755,6 +2095,7 @@ textarea.error::placeholder {
   gap: 10px;
   margin-bottom: 44px;
 }
+
 .user-profile__content-top__title * {
   font-weight: 400;
   font-size: 32px;
@@ -1762,26 +2103,32 @@ textarea.error::placeholder {
   text-align: center;
   color: #000;
 }
+
 .user-profile__content-top__setings {
   display: none;
 }
+
 .user-profile__content-form__title {
   margin-bottom: 22px;
   padding-left: 5px;
 }
+
 .user-profile__content-form__title * {
   font-weight: 700;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.4);
 }
+
 .user-profile__content-form .user-profile__form {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
+
 .user-profile__content-form .user-profile__form .label-global__input {
   padding: 14px 12px;
 }
+
 .user-profile__content-form .user-profile__form-submit {
   width: 100%;
   margin-top: 2px;
@@ -1792,9 +2139,11 @@ textarea.error::placeholder {
 .user-balance {
   padding-top: 115px;
 }
+
 .user-balance .container {
   max-width: 396px;
 }
+
 .user-balance__content-top {
   display: flex;
   align-items: center;
@@ -1802,6 +2151,7 @@ textarea.error::placeholder {
   gap: 10px;
   margin-bottom: 51px;
 }
+
 .user-balance__content-top__title * {
   font-weight: 400;
   font-size: 32px;
@@ -1809,14 +2159,17 @@ textarea.error::placeholder {
   text-align: center;
   color: #000;
 }
+
 .user-balance__content-top__setings {
   display: none;
 }
+
 .user-balance__content-info {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
+
 .user-balance__content-info__value {
   display: flex;
   align-items: center;
@@ -1826,6 +2179,7 @@ textarea.error::placeholder {
   text-align: center;
   color: #000;
 }
+
 .user-balance__content-info__value .icon {
   display: flex;
   align-items: center;
@@ -1839,15 +2193,18 @@ textarea.error::placeholder {
   text-align: center;
   color: #fff;
 }
+
 .user-balance__content-info__replenish {
   padding: 4px;
   border-radius: 8px;
   background-color: #f3f4f5;
 }
+
 .user-balance__content-info__replenish-btn {
   padding: 12px 10px;
   background-color: #000;
 }
+
 .user-balance__content-info__card {
   display: flex;
   flex-direction: column;
@@ -1857,6 +2214,7 @@ textarea.error::placeholder {
   border-radius: 8px;
   background-color: #ff4b00;
 }
+
 .user-balance__content-info__card-descr {
   display: flex;
   flex-direction: column;
@@ -1866,6 +2224,7 @@ textarea.error::placeholder {
   font-size: 16px;
   color: #fff;
 }
+
 .user-balance__content-info__card-descr .commission {
   font-family: var(--third-family);
   color: rgba(255, 255, 255, 0.8);
@@ -1874,9 +2233,11 @@ textarea.error::placeholder {
 .user-transfer {
   padding-top: 115px;
 }
+
 .user-transfer .container {
   max-width: 404px;
 }
+
 .user-transfer__content-top {
   display: flex;
   align-items: center;
@@ -1885,6 +2246,7 @@ textarea.error::placeholder {
   margin-bottom: 53px;
   padding-left: 4px;
 }
+
 .user-transfer__content-top__title * {
   font-weight: 400;
   font-size: 32px;
@@ -1892,26 +2254,32 @@ textarea.error::placeholder {
   text-align: center;
   color: #000;
 }
+
 .user-transfer__content-top__setings {
   display: none;
 }
+
 .user-transfer__content-form__title {
   margin-bottom: 21px;
   padding-left: 5px;
 }
+
 .user-transfer__content-form__title * {
   font-weight: 700;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.4);
 }
+
 .user-transfer__content-form .user-transfer__form {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
+
 .user-transfer__content-form .user-transfer__form .label-global__input {
   padding: 14px 12px;
 }
+
 .user-transfer__content-form .user-transfer__form-submit {
   width: 100%;
   margin-top: 2px;
@@ -1922,9 +2290,11 @@ textarea.error::placeholder {
 .user-transactions {
   padding-top: 143px;
 }
+
 .user-transactions .container {
   max-width: 520px;
 }
+
 .user-transactions__content-top {
   display: flex;
   align-items: center;
@@ -1933,6 +2303,7 @@ textarea.error::placeholder {
   margin-bottom: 28px;
   padding-left: 4px;
 }
+
 .user-transactions__content-top__title * {
   font-weight: 400;
   font-size: 32px;
@@ -1940,9 +2311,11 @@ textarea.error::placeholder {
   text-align: center;
   color: #000;
 }
+
 .user-transactions__content-top__setings {
   display: none;
 }
+
 .user-transactions__content-info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1951,34 +2324,39 @@ textarea.error::placeholder {
   border-radius: 8px;
   background-color: #f3f4f5;
 }
+
 .user-transactions__content-info__btn {
   flex-wrap: wrap;
   padding: 11px 10px;
   gap: 5px;
   color: #000;
 }
+
 .user-transactions__content-info__btn.active {
   background-color: #000;
   color: #fff;
 }
+
 .user-transactions__content-info__btn .icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
   width: 20px;
   height: 20px;
   border-radius: 50%;
   background-color: #ff4b00;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   text-align: center;
   color: #fff;
+  line-height: 20px;
+  vertical-align: middle;
 }
+
 .user-transactions__content-list .transactions__list {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
+
 .user-transactions__content-list .transactions__list-item__content {
   display: flex;
   align-items: center;
@@ -1989,11 +2367,13 @@ textarea.error::placeholder {
   border-radius: 8px;
   background-color: #fff;
 }
+
 .user-transactions__content-list .transactions__list-item__content-type {
   font-weight: 300;
   font-size: 16px;
   color: #000;
 }
+
 .user-transactions__content-list .transactions__list-item__content-info {
   display: flex;
   align-items: center;
@@ -2001,11 +2381,13 @@ textarea.error::placeholder {
   justify-content: end;
   gap: 20px;
 }
+
 .user-transactions__content-list .transactions__list-item__content-info__date {
   font-weight: 700;
   font-size: 15px;
   color: rgba(0, 0, 0, 0.4);
 }
+
 .user-transactions__content-list .transactions__list-item__content-info__value {
   display: flex;
   align-items: center;
@@ -2014,29 +2396,34 @@ textarea.error::placeholder {
   font-size: 18px;
   color: rgba(0, 0, 0, 0.4);
 }
+
 .user-transactions__content-list .transactions__list-item__content-info__value .icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
   width: 20px;
   height: 20px;
   background-color: #ff4b00;
   border-radius: 50%;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   text-align: center;
+  vertical-align: middle;
+  line-height: 20px;
   color: #fff;
 }
+
 .user-transactions__content-list .transactions__list-item.write-off .transactions__list-item__content-info__value {
   color: #ed1c24;
 }
+
 .user-transactions__content-list .transactions__list-item.replenishment .transactions__list-item__content-info__value {
   color: #36a86a;
 }
+
 .user-transactions__content-list .transactions__list-item.transfer .transactions__list-item__content {
   position: relative;
   padding: 10px 12px 8px 12px;
 }
+
 .user-transactions__content-list .transactions__list-item.transfer .transactions__list-item__content::before {
   content: "Перевод между аккаунтами";
   position: absolute;
@@ -2046,6 +2433,7 @@ textarea.error::placeholder {
   font-size: 12px;
   color: #000;
 }
+
 .user-transactions__content-list .transactions__list-item.transfer .transactions__list-item__content-type.desctop {
   display: flex;
   align-items: center;
@@ -2055,6 +2443,7 @@ textarea.error::placeholder {
   font-size: 16px;
   color: #000;
 }
+
 .user-transactions__content-list .transactions__list-item.transfer .transactions__list-item__content-type.mobile {
   display: none;
 }
@@ -2062,9 +2451,11 @@ textarea.error::placeholder {
 .admin-transactions {
   padding-top: 96px;
 }
+
 .admin-transactions .container {
   max-width: 520px;
 }
+
 .admin-transactions__content-top {
   display: flex;
   align-items: center;
@@ -2073,15 +2464,18 @@ textarea.error::placeholder {
   margin-bottom: 63px;
   padding-left: 10px;
 }
+
 .admin-transactions__content-top__title * {
   font-weight: 400;
   font-size: 32px;
   text-transform: uppercase;
   color: #000;
 }
+
 .admin-transactions__content-top__setings {
   display: none;
 }
+
 .admin-transactions__content-info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -2090,45 +2484,55 @@ textarea.error::placeholder {
   border-radius: 8px;
   background-color: #f3f4f5;
 }
+
 .admin-transactions__content-info__btn {
   flex-wrap: wrap;
   padding: 12px 10px;
   gap: 5px;
   color: #000;
 }
+
 .admin-transactions__content-info__btn.active {
   background-color: #000;
   color: #fff;
 }
+
 .admin-transactions__content-filter {
   margin-bottom: 45px;
 }
+
 .admin-transactions__content-filter__title {
   margin-bottom: 18px;
   padding-left: 4px;
 }
+
 .admin-transactions__content-filter__title * {
   font-weight: 700;
   font-size: 24px;
   color: rgba(0, 0, 0, 0.4);
 }
+
 .admin-transactions__content-filter .formSelect-btn {
   padding: 14px 20px 14px 21px;
 }
+
 .admin-transactions__content-list__title {
   margin-bottom: 20px;
   padding-left: 4px;
 }
+
 .admin-transactions__content-list__title * {
   font-weight: 700;
   font-size: 24px;
   color: rgba(0, 0, 0, 0.4);
 }
+
 .admin-transactions__content-list .transactions__list {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
+
 .admin-transactions__content-list .transactions__list-item__content {
   display: flex;
   align-items: center;
@@ -2139,11 +2543,13 @@ textarea.error::placeholder {
   border-radius: 8px;
   background-color: #fff;
 }
+
 .admin-transactions__content-list .transactions__list-item__content-type {
   font-weight: 300;
   font-size: 16px;
   color: #000;
 }
+
 .admin-transactions__content-list .transactions__list-item__content-info {
   display: flex;
   align-items: center;
@@ -2151,11 +2557,13 @@ textarea.error::placeholder {
   justify-content: end;
   gap: 20px;
 }
+
 .admin-transactions__content-list .transactions__list-item__content-info__date {
   font-weight: 700;
   font-size: 15px;
   color: rgba(0, 0, 0, 0.4);
 }
+
 .admin-transactions__content-list .transactions__list-item__content-info__value {
   display: flex;
   align-items: center;
@@ -2164,6 +2572,7 @@ textarea.error::placeholder {
   font-size: 18px;
   color: rgba(0, 0, 0, 0.4);
 }
+
 .admin-transactions__content-list .transactions__list-item__content-info__value .icon {
   display: flex;
   align-items: center;
@@ -2177,16 +2586,20 @@ textarea.error::placeholder {
   text-align: center;
   color: #fff;
 }
+
 .admin-transactions__content-list .transactions__list-item.write-off .transactions__list-item__content-info__value {
   color: #ed1c24;
 }
+
 .admin-transactions__content-list .transactions__list-item.replenishment .transactions__list-item__content-info__value {
   color: #36a86a;
 }
+
 .admin-transactions__content-list .transactions__list-item.transfer .transactions__list-item__content {
   position: relative;
   padding: 10px 18px 8px 9px;
 }
+
 .admin-transactions__content-list .transactions__list-item.transfer .transactions__list-item__content::before {
   content: "Перевод между аккаунтами";
   position: absolute;
@@ -2196,6 +2609,7 @@ textarea.error::placeholder {
   font-size: 12px;
   color: #000;
 }
+
 .admin-transactions__content-list .transactions__list-item.transfer .transactions__list-item__content-type {
   display: flex;
   align-items: center;
@@ -2205,9 +2619,11 @@ textarea.error::placeholder {
   font-size: 16px;
   color: #000;
 }
+
 .admin-transactions__content-list .transactions__list.transactions__list-all .transactions__list-item__content {
   position: relative;
 }
+
 .admin-transactions__content-list .transactions__list.transactions__list-all .transactions__list-item__content-name {
   text-align: center;
   font-weight: 700;
@@ -2218,9 +2634,11 @@ textarea.error::placeholder {
 .admin-users {
   padding-top: 101px;
 }
+
 .admin-users .container {
   max-width: 520px;
 }
+
 .admin-users__content-top {
   display: flex;
   align-items: center;
@@ -2228,15 +2646,18 @@ textarea.error::placeholder {
   gap: 10px;
   margin-bottom: 33px;
 }
+
 .admin-users__content-top__title * {
   font-weight: 400;
   font-size: 32px;
   text-transform: uppercase;
   color: #000;
 }
+
 .admin-users__content-top__setings {
   display: none;
 }
+
 .admin-users__content-info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -2245,43 +2666,53 @@ textarea.error::placeholder {
   border-radius: 8px;
   background-color: #f3f4f5;
 }
+
 .admin-users__content-info__btn {
   flex-wrap: wrap;
   padding: 12px 10px;
   gap: 5px;
   color: #000;
 }
+
 .admin-users__content-info__btn.active {
   background-color: #000;
   color: #fff;
 }
+
 .admin-users__content-filter {
   margin-bottom: 30px;
 }
+
 .admin-users__content-filter__title {
   margin-bottom: 31px;
 }
+
 .admin-users__content-filter__title * {
   font-weight: 700;
   font-size: 24px;
   color: rgba(0, 0, 0, 0.4);
 }
+
 .admin-users__content-filter .formSelect-btn {
   padding: 14px 20px 14px 21px;
 }
+
 .admin-users__content-list__title {
   margin-bottom: 21px;
 }
+
 .admin-users__content-list__title * {
   font-weight: 700;
   font-size: 24px;
   color: rgba(0, 0, 0, 0.4);
 }
+
 .admin-users__content-list .users__list {
   display: flex;
   flex-direction: column;
   gap: 9px;
 }
+
 .admin-users__content-list .users__list-item__content {
   display: flex;
   align-items: center;
@@ -2292,26 +2723,31 @@ textarea.error::placeholder {
   border-radius: 8px;
   background-color: #fff;
 }
+
 .admin-users__content-list .users__list-item__content-block {
   display: flex;
   flex-direction: column;
   gap: 1px;
 }
+
 .admin-users__content-list .users__list-item__content-block p.type {
   font-weight: 300;
   font-size: 14px;
   color: #000;
 }
+
 .admin-users__content-list .users__list-item__content-block p.name {
   font-weight: 700;
   font-size: 16px;
   color: #000;
 }
+
 .admin-users__content-list .users__list-item__content-block p.date {
   font-weight: 700;
   font-size: 16px;
   color: #000;
 }
+
 .admin-users__content-list .users__list-item__content-block p.value {
   display: flex;
   align-items: center;
@@ -2320,6 +2756,7 @@ textarea.error::placeholder {
   font-size: 16px;
   color: #000;
 }
+
 .admin-users__content-list .users__list-item__content-block p.value::after {
   content: "R";
   display: flex;
@@ -2330,29 +2767,35 @@ textarea.error::placeholder {
   background-color: #ff4b00;
   border-radius: 50%;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
+  padding-top: 1px;
   text-align: center;
   color: #fff;
 }
+
 .admin-users__content-list .users__list-item__content-block.balance {
   margin-left: 17px;
 }
+
 .admin-users__content-list .users__list-item__content-choice {
   display: flex;
   align-items: center;
   gap: 16px;
   margin-left: auto;
 }
+
 .admin-users__content-list .users__list-item__content-choice .type {
   font-weight: 300;
   font-size: 14px;
   color: #000;
 }
+
 .admin-users__content-list .users__list-item__content-choice__check {
   position: relative;
   width: 16px;
   height: 16px;
 }
+
 .admin-users__content-list .users__list-item__content-choice__check input {
   position: absolute;
   top: 0;
@@ -2363,12 +2806,14 @@ textarea.error::placeholder {
   z-index: 2;
   cursor: pointer;
 }
-.admin-users__content-list .users__list-item__content-choice__check input:checked + .custom-check {
+
+.admin-users__content-list .users__list-item__content-choice__check input:checked+.custom-check {
   background-image: url(../img/checkBox.png);
   background-size: contain;
   background-repeat: no-repeat;
   border: none;
 }
+
 .admin-users__content-list .users__list-item__content-choice__check .custom-check {
   display: block;
   width: 100%;
@@ -2381,9 +2826,11 @@ textarea.error::placeholder {
 .admin-balance {
   padding-top: 101px;
 }
+
 .admin-balance .container {
   max-width: 520px;
 }
+
 .admin-balance__content-top {
   display: flex;
   align-items: center;
@@ -2392,12 +2839,14 @@ textarea.error::placeholder {
   margin-bottom: 72px;
   padding-left: 15px;
 }
+
 .admin-balance__content-top__title * {
   font-weight: 400;
   font-size: 32px;
   text-transform: uppercase;
   color: #000;
 }
+
 .admin-balance__content-info {
   display: grid;
   grid-template-columns: repeat(2, auto);
@@ -2406,16 +2855,19 @@ textarea.error::placeholder {
   border-radius: 8px;
   background-color: #f3f4f5;
 }
+
 .admin-balance__content-info__btn {
   flex-wrap: wrap;
   padding: 10px 10px;
   gap: 5px;
   color: #000;
 }
+
 .admin-balance__content-info__btn.active {
   background-color: #000;
   color: #fff;
 }
+
 .admin-balance__content-info__btn .icon {
   display: flex;
   align-items: center;
@@ -2426,24 +2878,30 @@ textarea.error::placeholder {
   background-color: #ff4b00;
   font-weight: 400;
   font-size: 16px;
+  padding-top: 1px;
   text-align: center;
   color: #fff;
+  z-index: 1;
 }
+
 .admin-balance__content-form {
   margin: 0 auto;
   max-width: 371px;
 }
+
 .admin-balance__content-form__top {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-bottom: 17px;
 }
-.admin-balance__content-form__top > p {
+
+.admin-balance__content-form__top>p {
   font-weight: 700;
   font-size: 12px;
   color: rgba(0, 0, 0, 0.4);
 }
+
 .admin-balance__content-form__top-users {
   display: flex;
   align-items: center;
@@ -2452,11 +2910,13 @@ textarea.error::placeholder {
   font-size: 12px;
   color: #000;
 }
+
 .admin-balance__content-form .admin-balance__form {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
+
 .admin-balance__content-form .admin-balance__form-submit {
   padding: 15px 10px;
   color: #fff;
@@ -2466,9 +2926,11 @@ textarea.error::placeholder {
 .admin-administration {
   padding-top: 101px;
 }
+
 .admin-administration .container {
   max-width: 432px;
 }
+
 .admin-administration__content-top {
   display: flex;
   align-items: center;
@@ -2476,6 +2938,7 @@ textarea.error::placeholder {
   gap: 10px;
   margin-bottom: 48px;
 }
+
 .admin-administration__content-top__title * {
   font-weight: 400;
   font-size: 32px;
@@ -2483,6 +2946,7 @@ textarea.error::placeholder {
   text-align: center;
   color: #000;
 }
+
 .admin-administration__content-info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -2492,28 +2956,34 @@ textarea.error::placeholder {
   border-radius: 8px;
   background-color: #f3f4f5;
 }
+
 .admin-administration__content-info__btn {
   flex-wrap: wrap;
   padding: 12px 10px;
   gap: 5px;
   color: #000;
 }
+
 .admin-administration__content-info__btn.active {
   background-color: #000;
   color: #fff;
 }
+
 .admin-administration__content-info__btn:first-child {
   color: #fff;
   background-color: #ff4b00;
 }
+
 .admin-administration__content-form .admin-administration__form {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
+
 .admin-administration__content-form .admin-administration__form .label-global__input {
   padding: 14px 16px;
 }
+
 .admin-administration__content-form .admin-administration__form-submit {
   padding: 15px 10px;
   color: #fff;
@@ -2523,9 +2993,11 @@ textarea.error::placeholder {
 .administration-users {
   padding-top: 101px;
 }
+
 .administration-users .container {
   max-width: 520px;
 }
+
 .administration-users__content-top {
   display: flex;
   align-items: center;
@@ -2533,15 +3005,18 @@ textarea.error::placeholder {
   gap: 10px;
   margin-bottom: 48px;
 }
+
 .administration-users__content-top__title * {
   font-weight: 400;
   font-size: 32px;
   text-transform: uppercase;
   color: #000;
 }
+
 .administration-users__content-top__setings {
   display: none;
 }
+
 .administration-users__content-info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -2551,47 +3026,58 @@ textarea.error::placeholder {
   border-radius: 8px;
   background-color: #f3f4f5;
 }
+
 .administration-users__content-info__btn {
   flex-wrap: wrap;
   padding: 12px 10px;
   gap: 5px;
   color: #000;
 }
+
 .administration-users__content-info__btn.active {
   background-color: #000;
   color: #fff;
 }
+
 .administration-users__content-info__btn:first-child {
   color: #fff;
   background-color: #ff4b00;
 }
+
 .administration-users__content-filter {
   margin-bottom: 30px;
 }
+
 .administration-users__content-filter__title {
   margin-bottom: 31px;
 }
+
 .administration-users__content-filter__title * {
   font-weight: 700;
   font-size: 20px;
   color: rgba(0, 0, 0, 0.4);
 }
+
 .administration-users__content-filter .formSelect-btn {
   padding: 14px 20px 14px 21px;
 }
+
 .administration-users__content-list__title {
   margin-bottom: 21px;
 }
+
 .administration-users__content-list__title * {
   font-weight: 700;
   font-size: 24px;
   color: rgba(0, 0, 0, 0.4);
 }
+
 .administration-users__content-list .administration-users__list {
   display: flex;
   flex-direction: column;
   gap: 9px;
 }
+
 .administration-users__content-list .administration-users__list-item__content {
   display: flex;
   align-items: center;
@@ -2602,58 +3088,70 @@ textarea.error::placeholder {
   border-radius: 8px;
   background-color: #fff;
 }
+
 .administration-users__content-list .administration-users__list-item__content-name {
   display: flex;
   flex-direction: column;
   gap: 1px;
 }
+
 .administration-users__content-list .administration-users__list-item__content-name p.type {
   font-weight: 300;
   font-size: 14px;
   color: #000;
 }
+
 .administration-users__content-list .administration-users__list-item__content-name p.name {
   font-weight: 700;
   font-size: 16px;
   color: #000;
 }
+
 .administration-users__content-list .administration-users__list-item__content-info {
   display: flex;
   flex-direction: column;
   gap: 3px;
 }
+
 .administration-users__content-list .administration-users__list-item__content-info__block {
   display: flex;
   align-items: center;
   gap: 17px;
 }
+
 .administration-users__content-list .administration-users__list-item__content-info__block p {
   font-weight: 300;
   font-size: 13px;
   color: #000;
 }
+
 .administration-users__content-list .administration-users__list-item__content-info__block p:first-child {
   min-width: 105px;
 }
+
 .administration-users__content-list .administration-users__list-item__content-info__block p.date {
   font-weight: 700;
 }
+
 .administration-users__content-list .administration-users__list-item__content-choice {
   display: flex;
   align-items: center;
   gap: 16px;
   margin-left: auto;
 }
+
 .administration-users__content-list .administration-users__list-item__content-choice .type {
   font-weight: 300;
   font-size: 14px;
   color: #000;
 }
+
 .administration-users__content-list .administration-users__list-item__content-choice__check {
   position: relative;
   width: 16px;
   height: 16px;
 }
+
 .administration-users__content-list .administration-users__list-item__content-choice__check input {
   position: absolute;
   top: 0;
@@ -2664,12 +3162,14 @@ textarea.error::placeholder {
   z-index: 2;
   cursor: pointer;
 }
-.administration-users__content-list .administration-users__list-item__content-choice__check input:checked + .custom-check {
+
+.administration-users__content-list .administration-users__list-item__content-choice__check input:checked+.custom-check {
   background-image: url(../img/checkBox.png);
   background-size: contain;
   background-repeat: no-repeat;
   border: none;
 }
+
 .administration-users__content-list .administration-users__list-item__content-choice__check .custom-check {
   display: block;
   width: 100%;
@@ -2678,6 +3178,7 @@ textarea.error::placeholder {
   border: 1px solid #000;
   z-index: 1;
 }
+
 .administration-users__content-list .administration-users__list-item__content-delete {
   display: none;
 }
@@ -2688,81 +3189,102 @@ textarea.error::placeholder {
     max-width: 100%;
     padding: 13px 32px 0 32px;
   }
+
   .main-statistics__content {
     width: 100%;
     max-width: 413px;
     margin: 0 auto;
   }
 }
+
 @media (max-width: 767px) {
   .mobile-menu {
     display: block;
   }
+
   .main-guest {
     padding-top: 40px;
   }
+
   .main-guest__content {
     padding-left: 0;
   }
+
   .main-guest__content-top {
     flex-direction: column;
     gap: 10px;
     margin-bottom: 23px;
     padding-left: 0;
   }
+
   .main-guest__content-bottom {
     display: flex;
     flex-direction: column;
     gap: 48px;
   }
+
   .main-guest__content-bottom__form .main-guest__form-links {
     margin-bottom: 27px;
   }
+
   .main-guest__content-bottom__form .main-guest__form .label-global__input {
     padding: 17px 16px;
   }
+
   .main-guest__content-bottom__form .main-guest__form-submit {
     padding: 17px 10px;
   }
+
   .main-guest__content-bottom__info-title {
     margin-bottom: 17px;
   }
+
   .main-guest__content-bottom__info-title * {
     font-size: 18px;
   }
+
   .main-guest__content-bottom__info-descr {
     font-size: 16px;
   }
+
   .main-restrictions {
     position: unset;
     max-width: 100%;
   }
+
   .main-statistics__content {
     padding: 11px 16px 19px 16px;
     max-width: 379px;
     border-radius: 6px;
   }
+
   .main-statistics__content-top {
     gap: 13px;
     margin-bottom: 10px;
   }
+
   .main-statistics__content-top .icon svg {
     width: 20px;
     height: 20px;
   }
+
   .main-statistics__content-top__title * {
     font-size: 14px;
   }
+
   .main-statistics__content-list .statistics__list {
     gap: 9px;
   }
+
   .main-statistics__content-list .statistics__list-item {
     gap: 41px;
     font-size: 14px;
   }
+
   .main-user {
     padding-top: 40px;
   }
+
   .main-user__content-top {
     display: flex;
     align-items: center;
@@ -2770,28 +3292,33 @@ textarea.error::placeholder {
     gap: 10px;
     margin-bottom: 20px;
   }
+
   .main-user__content-top__info {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
+
   .main-user__content-top__info p {
     font-weight: 400;
     font-size: 18px;
     color: #000;
   }
+
   .main-user__content-top__info h3 {
     font-weight: 700;
     font-size: 18px;
     text-transform: uppercase;
     color: #000;
   }
+
   .main-user__content-top__control {
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
     gap: 10px;
   }
+
   .main-user__content-top__control-add__btn {
     display: flex;
     align-items: center;
@@ -2802,10 +3329,12 @@ textarea.error::placeholder {
     border-radius: 4px;
     background-color: #f3f4f5;
   }
+
   .main-user__content-top__control-add__btn svg {
     width: 100%;
     height: 100%;
   }
+
   .main-user__content-top__control-balance {
     font-weight: 700;
     font-size: 20px;
@@ -2813,6 +3342,7 @@ textarea.error::placeholder {
     text-align: right;
     color: #000;
   }
+
   .main-user__content-top__control-settings__btn {
     display: flex;
     align-items: center;
@@ -2823,73 +3353,93 @@ textarea.error::placeholder {
     border-radius: 8px;
     background-color: #f3f4f5;
   }
+
   .main-user__content-rates .rates__list {
     gap: 14px;
   }
+
   .main-user__content-rates .rates__list-item__content {
     grid-template-columns: 1fr 90px 1fr;
     padding: 18px 12px;
     min-height: 148px;
   }
+
   .main-user__content-rates .rates__list-item__content-choice__tupe {
     width: 50px;
     height: 50px;
   }
+
   .main-user__content-rates .rates__list-item__content-choice__info h3 {
     font-size: 12px;
   }
+
   .main-user__content-rates .rates__list-item__content-choice__info p {
     display: none;
   }
+
   .main-user__content-rates .rates__list-item__content-choice__btn .btn-global {
     padding: 5px;
     font-size: 12px;
   }
+
   .main-user__content-rates .rates__list-item__content-info {
     padding: 0;
   }
+
   .main-user__content-rates .rates__list-item__content-info__top h4 {
     font-size: 10px;
   }
+
   .main-user__content-rates .rates__list-item__content-info__top p {
     font-size: 8px;
   }
+
   .main-user__content-rates .rates__list-item__content-info__top p.time {
     font-size: 10px;
   }
-  .main-user__content-rates .rates__list-item__content-info__bottom > p {
+
+  .main-user__content-rates .rates__list-item__content-info__bottom>p {
     font-size: 8px;
   }
+
   .main-user__content-rates .rates__list-item__content-info__bottom-btn {
     position: relative;
     padding: 6px 10px;
     font-size: 12px;
     gap: 3px;
   }
-  .main-user__content-rates .rates__list-item__content-info__bottom-btn::after {
+
+  /*.main-user__content-rates .rates__list-item__content-info__bottom-btn::after {
     content: "₽";
-  }
-  .main-user__content-rates .rates__list-item__content-info__bottom-btn .icon {
+  }*/
+
+  /*.main-user__content-rates .rates__list-item__content-info__bottom-btn .icon {
     display: none;
-  }
+  }*/
   .user-profile {
     padding-top: 56px;
   }
+
   .user-profile .container {
     max-width: 100%;
   }
+
   .user-profile__content-top {
     margin-bottom: 31px;
   }
+
   .user-profile__content-top__title {
     padding-left: 4px;
   }
+
   .user-profile__content-top__title * {
     font-size: 24px;
   }
+
   .user-profile__content-top__setings {
     display: block;
   }
+
   .user-profile__content-top__setings-btn {
     display: flex;
     flex-direction: column;
@@ -2900,34 +3450,44 @@ textarea.error::placeholder {
     border-radius: 8px;
     background-color: #f3f4f5;
   }
+
   .user-profile__content-form__title {
     margin-bottom: 22px;
   }
+
   .user-profile__content-form__title * {
     font-size: 16px;
   }
+
   .user-profile__content-form .user-profile__form .label-global__input {
     padding: 16px 12px;
   }
+
   .user-profile__content-form .user-profile__form-submit {
     margin-top: 4px;
     padding: 17px 10px;
   }
+
   .user-balance {
     padding-top: 56px;
   }
+
   .user-balance .container {
     max-width: 100%;
   }
+
   .user-balance__content-top {
     margin-bottom: 28px;
   }
+
   .user-balance__content-top__title * {
     font-size: 24px;
   }
+
   .user-balance__content-top__setings {
     display: block;
   }
+
   .user-balance__content-top__setings-btn {
     display: flex;
     flex-direction: column;
@@ -2938,47 +3498,60 @@ textarea.error::placeholder {
     border-radius: 8px;
     background-color: #f3f4f5;
   }
-  .user-balance__content-info {
+
+  /*.user-balance__content-info {
     gap: 0;
-  }
+  }*/
+
   .user-balance__content-info__value {
     margin-bottom: 48px;
   }
-  .user-balance__content-info__value::after {
+
+  /*.user-balance__content-info__value::after {
     content: "₽";
-  }
-  .user-balance__content-info__value .icon {
+  }*/
+
+  /*.user-balance__content-info__value .icon {
     display: none;
-  }
+  }*/
   .user-balance__content-info__replenish {
     margin-bottom: 24px;
   }
+
   .user-balance__content-info__replenish-btn {
     padding: 14px 10px;
   }
+
   .user-balance__content-info__card-descr {
     gap: 8px;
     margin-bottom: 5px;
     font-size: 12px;
   }
+
   .user-transfer {
     padding-top: 56px;
   }
+
   .user-transfer .container {
     max-width: 100%;
   }
+
   .user-transfer__content-top {
     margin-bottom: 31px;
   }
+
   .user-transfer__content-top__title {
     padding-left: 4px;
   }
+
   .user-transfer__content-top__title * {
     font-size: 24px;
   }
+
   .user-transfer__content-top__setings {
     display: block;
   }
+
   .user-transfer__content-top__setings-btn {
     display: flex;
     flex-direction: column;
@@ -2989,37 +3562,48 @@ textarea.error::placeholder {
     border-radius: 8px;
     background-color: #f3f4f5;
   }
+
   .user-transfer__content-form__title {
     margin-bottom: 22px;
   }
+
   .user-transfer__content-form__title * {
     font-size: 16px;
   }
+
   .user-transfer__content-form .user-transfer__form .formSelect-btn {
     padding: 16px 12px;
   }
+
   .user-transfer__content-form .user-transfer__form .label-global__input {
     padding: 16px 12px;
   }
+
   .user-transfer__content-form .user-transfer__form-submit {
     margin-top: 4px;
     padding: 17px 10px;
   }
+
   .user-transactions {
     padding-top: 60px;
   }
+
   .user-transactions .container {
     max-width: 100%;
   }
+
   .user-transactions__content-top {
     margin-bottom: 24px;
   }
+
   .user-transactions__content-top__title * {
     font-size: 24px;
   }
+
   .user-transactions__content-top__setings {
     display: block;
   }
+
   .user-transactions__content-top__setings-btn {
     display: flex;
     flex-direction: column;
@@ -3030,210 +3614,271 @@ textarea.error::placeholder {
     border-radius: 8px;
     background-color: #f3f4f5;
   }
+
   .user-transactions__content-info {
     margin-bottom: 34px;
   }
+
   .user-transactions__content-info__btn {
     padding: 14px 10px;
-    gap: 0;
+    /*gap: 0;*/
   }
-  .user-transactions__content-info__btn::after {
+
+  /*.user-transactions__content-info__btn::after {
     content: "р";
-  }
+  }*/
+
   .user-transactions__content-info__btn .value {
     margin-left: 5px;
   }
-  .user-transactions__content-info__btn .icon {
+
+  /*.user-transactions__content-info__btn .icon {
     display: none;
-  }
+  }*/
   .user-transactions__content-list .transactions__list-item__content {
     padding: 18px 10px;
   }
+
   .user-transactions__content-list .transactions__list-item__content-type {
     font-size: 12px;
   }
+
   .user-transactions__content-list .transactions__list-item__content-info {
     gap: 14px;
   }
+
   .user-transactions__content-list .transactions__list-item__content-info__date {
     font-size: 10px;
   }
+
   .user-transactions__content-list .transactions__list-item__content-info__value {
-    gap: 0;
+    /*gap: 0;*/
     font-size: 12px;
   }
-  .user-transactions__content-list .transactions__list-item__content-info__value::after {
+
+  /*.user-transactions__content-list .transactions__list-item__content-info__value::after {
     content: "p";
-  }
-  .user-transactions__content-list .transactions__list-item__content-info__value .icon {
+  }*/
+
+  /*.user-transactions__content-list .transactions__list-item__content-info__value .icon {
     display: none;
-  }
+  }*/
   .user-transactions__content-list .transactions__list-item.transfer .transactions__list-item__content {
     padding: 17px 12px;
   }
+
   .user-transactions__content-list .transactions__list-item.transfer .transactions__list-item__content::before {
     display: none;
   }
+
   .user-transactions__content-list .transactions__list-item.transfer .transactions__list-item__content-type.desctop {
     display: none;
   }
+
   .user-transactions__content-list .transactions__list-item.transfer .transactions__list-item__content-type.mobile {
     display: block;
   }
+
   .admin-transactions {
     padding-top: 68px;
   }
+
   .admin-transactions .container {
     max-width: 100%;
   }
+
   .admin-transactions__content-top {
     margin-bottom: 32px;
     padding-left: 8px;
   }
+
   .admin-transactions__content-top__title * {
     font-size: 16px;
   }
+
   .admin-transactions__content-info {
     margin-bottom: 16px;
   }
+
   .admin-transactions__content-info__btn {
     padding: 14px 10px;
   }
+
   .admin-transactions__content-filter {
     margin-bottom: 18px;
   }
+
   .admin-transactions__content-filter__title {
     padding-left: 0;
     margin-bottom: 13px;
   }
+
   .admin-transactions__content-filter__title * {
     font-size: 12px;
   }
+
   .admin-transactions__content-filter .formSelect-btn {
     padding: 17px 17px 17px 11px;
   }
+
   .admin-transactions__content-list {
     gap: 7px;
   }
+
   .admin-transactions__content-list__title {
     padding-left: 0;
     margin-bottom: 11px;
   }
+
   .admin-transactions__content-list__title * {
     font-size: 16px;
   }
+
   .admin-transactions__content-list .transactions__list-item__content {
     padding: 18px 10px;
   }
+
   .admin-transactions__content-list .transactions__list-item__content-type {
     font-size: 12px;
   }
+
   .admin-transactions__content-list .transactions__list-item__content-info {
     gap: 14px;
   }
+
   .admin-transactions__content-list .transactions__list-item__content-info__date {
     font-size: 10px;
   }
+
   .admin-transactions__content-list .transactions__list-item__content-info__value {
-    gap: 0;
+    /*gap: 0;*/
     font-size: 12px;
   }
+
   .admin-transactions__content-list .transactions__list-item.transfer .transactions__list-item__content {
     padding: 10px 12px;
   }
+
   .admin-transactions__content-list .transactions__list-item.transfer .transactions__list-item__content::before {
     font-size: 10px;
   }
+
   .admin-transactions__content-list .transactions__list-item.transfer .transactions__list-item__content-type {
     position: relative;
     gap: 9px;
     padding-top: 14px;
     font-size: 12px;
   }
+
   .admin-transactions__content-list .transactions__list.transactions__list-all .transactions__list-item__content {
     padding: 10px 10px;
   }
+
   .admin-transactions__content-list .transactions__list.transactions__list-all .transactions__list-item__content-type {
     position: absolute;
     top: 8px;
     left: 12px;
   }
+
   .admin-transactions__content-list .transactions__list.transactions__list-all .transactions__list-item__content-name {
     margin-top: 15px;
     font-size: 12px;
   }
+
   .admin-transactions__content-list .transactions__list.transactions__list-all .transactions__list-item.transfer .transactions__list-item__content-type {
     position: unset;
   }
+
   .admin-users {
     padding-top: 72px;
   }
+
   .admin-users .container {
     max-width: 100%;
   }
+
   .admin-users__content-top {
     padding-left: 7px;
     margin-bottom: 28px;
   }
+
   .admin-users__content-top__title * {
     font-size: 16px;
   }
+
   .admin-users__content-info {
     margin-bottom: 16px;
   }
+
   .admin-users__content-info__btn {
     padding: 14px 2px;
   }
+
   .admin-users__content-filter {
     margin-bottom: 18px;
   }
+
   .admin-users__content-filter__title {
     padding-left: 0;
     margin-bottom: 13px;
   }
+
   .admin-users__content-filter__title * {
     font-size: 12px;
   }
+
   .admin-users__content-filter .formSelect-btn {
     padding: 17px 17px 17px 11px;
   }
+
   .admin-users__content-list {
     gap: 7px;
   }
+
   .admin-users__content-list__title {
     padding-left: 0;
     margin-bottom: 11px;
   }
+
   .admin-users__content-list__title * {
     font-size: 16px;
   }
+
   .admin-users__content-list .users__list-item__content {
     gap: 9px;
     padding: 9px 7px 9px 9px;
   }
+
   .admin-users__content-list .users__list-item__content-block {
     gap: 6px;
   }
+
   .admin-users__content-list .users__list-item__content-block p.type {
     font-size: 10px;
   }
+
   .admin-users__content-list .users__list-item__content-block p.type.typeDate {
     font-size: 8px;
   }
+
   .admin-users__content-list .users__list-item__content-block p.type.typeBalance {
     font-size: 8px;
   }
+
   .admin-users__content-list .users__list-item__content-block p.name {
     font-size: 12px;
   }
+
   .admin-users__content-list .users__list-item__content-block p.date {
     font-size: 8px;
   }
+
   .admin-users__content-list .users__list-item__content-block p.value {
-    gap: 0;
+    /*gap: 0;*/
     font-size: 10px;
   }
-  .admin-users__content-list .users__list-item__content-block p.value::after {
+
+  /*.admin-users__content-list .users__list-item__content-block p.value::after {
     content: "p";
     width: unset;
     height: unset;
@@ -3241,29 +3886,43 @@ textarea.error::placeholder {
     font-weight: 700;
     font-size: 10px;
     color: #000;
+  }*/
+
+  .admin-users__content-list .users__list-item__content-block p.value::after {
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
   }
+
   .admin-users__content-list .users__list-item__content-block.balance {
     margin-left: 13px;
   }
+
   .admin-users__content-list .users__list-item__content-choice {
     gap: 6px;
   }
+
   .admin-users__content-list .users__list-item__content-choice .type {
     font-size: 8px;
   }
+
   .admin-balance {
     padding-top: 68px;
   }
+
   .admin-balance .container {
     max-width: 100%;
   }
+
   .admin-balance__content-top {
     padding-left: 4px;
     margin-bottom: 28px;
   }
+
   .admin-balance__content-top__title * {
     font-size: 16px;
   }
+
   .admin-balance__content-info {
     display: flex;
     flex-direction: column;
@@ -3271,6 +3930,7 @@ textarea.error::placeholder {
     margin-bottom: 21px;
     background-color: inherit;
   }
+
   .admin-balance__content-info__btn {
     position: relative;
     justify-content: start;
@@ -3278,20 +3938,24 @@ textarea.error::placeholder {
     background-color: #f3f4f5;
     color: #fff;
   }
+
   .admin-balance__content-info__btn p {
     position: relative;
     z-index: 2;
   }
+
   .admin-balance__content-info__btn.active {
     background-color: #f3f4f5;
   }
-  .admin-balance__content-info__btn .icon {
+
+  /*.admin-balance__content-info__btn .icon {
     display: none;
-  }
-  .admin-balance__content-info__btn::after {
+  }*/
+  /*.admin-balance__content-info__btn::after {
     content: "p";
     z-index: 2;
-  }
+  }*/
+
   .admin-balance__content-info__btn::before {
     content: "";
     position: absolute;
@@ -3304,138 +3968,180 @@ textarea.error::placeholder {
     background-color: #000;
     z-index: 1;
   }
+
   .admin-balance__content-form__top {
     gap: 21px;
   }
+
   .admin-balance__content-form__top-users {
     gap: 8px;
   }
+
   .admin-balance__content-form .admin-balance__form {
     gap: 15px;
   }
+
   .admin-balance__content-form .admin-balance__form .formSelect-btn {
     padding: 17px 20px 16px 11px;
   }
+
   .admin-balance__content-form .admin-balance__form .label-global__input {
     padding: 16px 10px;
   }
+
   .admin-balance__content-form .admin-balance__form-submit {
     padding: 18px 10px;
   }
+
   .admin-administration {
     padding-top: 68px;
   }
+
   .admin-administration .container {
     max-width: 100%;
   }
+
   .admin-administration__content-top {
     justify-content: flex-start;
     padding-left: 4px;
     margin-bottom: 32px;
   }
+
   .admin-administration__content-top__title * {
     text-align: start;
     font-size: 16px;
   }
+
   .admin-administration__content-info {
     margin-bottom: 55px;
   }
+
   .admin-administration__content-info__btn {
     padding: 14px 10px;
   }
+
   .admin-administration__content-form__top {
     gap: 21px;
   }
+
   .admin-administration__content-form__top-users {
     gap: 8px;
   }
+
   .admin-administration__content-form .admin-administration__form .formSelect-btn {
     padding: 17px 20px 16px 11px;
   }
+
   .admin-administration__content-form .admin-administration__form .label-global__input {
     padding: 16px 10px;
   }
+
   .admin-administration__content-form .admin-administration__form-submit {
     padding: 18px 10px;
   }
+
   .administration-users {
     padding-top: 68px;
   }
+
   .administration-users .container {
     max-width: 100%;
   }
+
   .administration-users__content-top {
     padding-left: 5px;
     margin-bottom: 32px;
   }
+
   .administration-users__content-top__title * {
     font-size: 16px;
   }
+
   .administration-users__content-info {
     margin-bottom: 16px;
   }
+
   .administration-users__content-info__btn {
     padding: 14px 10px;
   }
+
   .administration-users__content-filter {
     margin-bottom: 18px;
   }
+
   .administration-users__content-filter__title {
     padding-left: 0;
     margin-bottom: 13px;
   }
+
   .administration-users__content-filter__title * {
     font-size: 12px;
   }
+
   .administration-users__content-filter .formSelect-btn {
     padding: 17px 17px 17px 11px;
   }
+
   .administration-users__content-list {
     gap: 7px;
   }
+
   .administration-users__content-list__title {
     padding-left: 0;
     margin-bottom: 11px;
   }
+
   .administration-users__content-list__title * {
     font-size: 16px;
   }
+
   .administration-users__content-list .administration-users__list-item__content {
     gap: 15px;
     padding: 9px 12px 9px 9px;
   }
+
   .administration-users__content-list .administration-users__list-item__content-name {
     gap: 5px;
   }
+
   .administration-users__content-list .administration-users__list-item__content-name p.type {
     font-size: 10px;
   }
+
   .administration-users__content-list .administration-users__list-item__content-name p.name {
     font-size: 12px;
   }
+
   .administration-users__content-list .administration-users__list-item__content-info {
     gap: 8px;
   }
+
   .administration-users__content-list .administration-users__list-item__content-info__block {
     gap: 12px;
   }
+
   .administration-users__content-list .administration-users__list-item__content-info__block p {
     font-size: 8px;
   }
+
   .administration-users__content-list .administration-users__list-item__content-info__block p:first-child {
     min-width: 65px;
   }
+
   .administration-users__content-list .administration-users__list-item__content-choice {
     display: none;
     gap: 6px;
   }
+
   .administration-users__content-list .administration-users__list-item__content-choice .type {
     font-size: 8px;
   }
+
   .administration-users__content-list .administration-users__list-item__content-delete {
     display: block;
     margin-left: auto;
   }
+
   .administration-users__content-list .administration-users__list-item__content-delete__btn {
     font-weight: 300;
     font-size: 8px;
