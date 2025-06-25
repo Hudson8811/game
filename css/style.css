@@ -1500,11 +1500,23 @@ textarea.error::placeholder {
   line-height: 100%;
   letter-spacing: -0.02em;
   color: var(--151515);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header__content-right__nav .nav__list-item__link svg {
+  margin-top: 1px;
+  width: 10px;
+  height: 6px;
+  color: #151515;
+  transition: all 0.2s linear;
 }
 
 .header__content-right__nav .nav__list-item__link:hover {
   color: var(--ed1c24);
 }
+
 
 .header__content-right__nav .nav__list-item {
   position: relative;
@@ -1530,6 +1542,10 @@ textarea.error::placeholder {
   opacity: 1;
   visibility: visible;
   top: calc(100% + 10px);
+}
+
+.header__content-right__nav .nav__list-item:hover .nav__list-item__link svg {
+  transform: rotate(-180deg);
 }
 
 .header__content-right__nav .nav__list-item:hover .nav__list-sub::before {
