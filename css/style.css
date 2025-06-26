@@ -2508,6 +2508,28 @@ textarea.error::placeholder {
   color: #000;
 }
 
+.admin-transactions__content-info__btn .value {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  line-height: 1;
+}
+
+.admin-transactions__content-info__btn .value .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background-color: #ff4b00;
+  border-radius: 50%;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+  padding-top: 1px;
+}
+
 .admin-transactions__content-info__btn.active {
   background-color: #000;
   color: #fff;
@@ -2598,9 +2620,10 @@ textarea.error::placeholder {
   background-color: #ff4b00;
   border-radius: 50%;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   text-align: center;
   color: #fff;
+  padding-top: 1px;
 }
 
 .admin-transactions__content-list .transactions__list-item.write-off .transactions__list-item__content-info__value {
