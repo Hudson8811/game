@@ -1567,6 +1567,9 @@ textarea.error::placeholder {
 }
 
 .header__content-right__social .social__list-item__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: var(--font3);
   font-weight: 600;
   font-size: 12px;
